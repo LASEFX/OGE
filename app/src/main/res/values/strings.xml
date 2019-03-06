@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Oge-v1</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="fragments">
+        <item>1 вариант</item>
+        <item>2 вариант</item>
+        <item>3 вариант</item>
+        <item>4 вариант</item>
+        <item>5 вариант</item>
+        <item>6 вариант</item>
+        <item>7 вариант</item>
+        <item>8 вариант</item>
+        <item>9 вариант</item>
+        <item>10 вариант</item>
+        <item>11 вариант</item>
+        <item>12 вариант</item>
+        <item>13 вариант</item>
+        <item>14 вариант</item>
+        <item>15 вариант</item>
+
+
+    </string-array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

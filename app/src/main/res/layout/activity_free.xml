@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGray"
+    tools:context=".Free">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:background="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/colorWhite"
+            android:text="\n\n           ОГЭ PRO: Достигайте своих \n                        целей быстрее \n"/>
+
+        <TextView
+
+            android:background="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="@color/colorWhite"
+            android:text="          Работа с продвинутыми инструментами без\n                                                рекламы\n"/>
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="90dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Выберите свой план:"
+            android:textSize="20dp"
+            android:textColor="@color/colorBlack"/>
+
+        <android.support.v7.widget.CardView
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Месяц"
+                android:textColor="@color/colorBlack"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="368,99 р/месяц"
+                android:textColor="@color/colorBlack"
+                android:textSize="15dp" />
+
+            <Button
+                android:layout_marginLeft="230dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:background="@color/colorGreen"
+                android:text="Начать"
+                android:textSize="15dp"
+                android:textColor="@color/colorWhite"
+                />
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Год"
+                android:textColor="@color/colorBlack"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="299,92 р/месяц"
+                android:textColor="@color/colorBlack"
+                android:textSize="15dp" />
+
+            <Button
+                android:layout_marginLeft="230dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:background="@color/colorGreen"
+                android:text="Начать"
+                android:textSize="15dp"
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:layout_marginLeft="150dp"
+                android:layout_marginRight="140dp"
+                android:layout_marginTop="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  -18% "
+                android:textColor="@color/colorWhite"
+                android:textSize="15dp"
+                android:background="@color/colorAccent"/>
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
